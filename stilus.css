@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    max-width:800px;
+    margin: auto;
+    
+}
+img {
+    width:100%;
+}
+#tarolo {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#fejlec {
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    
+    
+}
+h1 {
+    tab-size: 2;
+}
+#fokep {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+
+}
+#nav ul{
+    background-color:rgb(202, 202, 204);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    list-style-type: none;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.kezdolap:hover {
+    background-color:red;
+    padding: 2px;
+}
+#ures:hover{
+    background-color: rgb(202, 202, 204);
+}
+#nav a:hover{
+    color:white;
+}
+#nav a{
+    text-decoration: none;
+    color:darkred;
+}
+
+#galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+.kep {
+    padding: 8px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+@media only screen and (max-width: 800px) {
+    #nav ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    #galeria{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #nav ul{
+    grid-template-columns: 1fr;
+    }
+    #galeria{
+        grid-template-columns: 1fr ;
+    }
+}
+
